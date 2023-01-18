@@ -1,0 +1,663 @@
+<html>
+       <head>
+			 <meta charset="utf-8">
+			 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+			 <meta name="viewport" content="width=device-width, initial-scale=1">
+			 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	        <title>
+	          Sendbit
+	        </title>
+			           <link rel="icon" href="img/logo/title.png" type="image/png" sizes="16x16">
+						<link rel="stylesheet" href="css/bootstrap.min.css">
+						<link rel="stylesheet" href="css/bootstrap.css">
+						<link rel="stylesheet" href="css/navbar.css">
+						<link rel="stylesheet" href="css/style.css">
+						<link rel="stylesheet" href="css/type.css">
+						<link rel="stylesheet" href="css/footer.css">
+						
+						
+					    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+                      	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+                        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+              
+	               
+	</head>
+	
+	<body>
+
+
+<!---------------------navbar -->
+		<nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+			<div class="container-fluid">
+			    <div class="navbar-header">
+					<button onclick="mobile()" type="button" class="navbar-toggle collapsed first-button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						 <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img     src="img/logo/sendbit.png">
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				    <ul class="nav navbar-nav menu-left">
+						<li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product <b class="glyphicon glyphicon-menu-down"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+                        </li>
+						<li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Why Sendbit <b class="glyphicon glyphicon-menu-down"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+                        </li>
+						<li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="glyphicon glyphicon-menu-down"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+                        </li>
+						<li><a href="#">Pricing</a></li>
+					</ul>
+                    <ul class="nav navbar-nav navbar-right menu-right">
+						<li class="log"><a href="log.html"><span>Access Merchant Area</span></a></li>
+						<li class="sign "><a href="sign.html" type="button" class="btn btn-primary">Get Started</a>&nbsp;&nbsp;&nbsp;</li>
+				    </ul>
+				</div>	
+		    </div>
+		</nav> 
+	<!---------------------mobile navbar -->
+		<div id="mobile" class="modal">
+			<div class="modal-content">
+				<div class="modal-header">
+				    <center>
+						<div class="tabbable-line">
+							<ul class="nav nav-tabs ul">
+								<li><a data-toggle="tab" href="#business">API docs</a></li>
+							</ul>
+						</div>
+                    </center>   
+					<span class="close">&times;</span>	
+				</div>
+				<div class="modal-body">
+				    <ul>
+					   <li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product <b class="glyphicon glyphicon-menu-down"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+                        </li>
+						<li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Why SendBit <b class="glyphicon glyphicon-menu-down"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+                        </li>
+						<li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="glyphicon glyphicon-menu-down"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+                        </li>
+						<li><a href="#">Pricing</a></li>
+						<li class="log"><a href="log.html"><span>Access Merchant Area</span></a></li>
+					    <center><p class="gt"><a href="#" class="btn btn-primary" role="button">Get Start</a></p></center>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+   <!---------------------main menu or section-1 --> 
+		<section class="main-heading main-section section-1">
+		    <div class="container-fluid fluid-all">
+			    <div class="row">
+				    <div data-aos="fade-up"  class="col-md-6 content-part1">
+					      <h1 data-aos="fade-right" data-aos-duration="2000" >Accept Crypto Settlements Instantly in <b style="color:#388DFF"> <span
+							style="line-height:55px;" class="txt-rotate"
+							 data-period="2000"
+							 data-rotate='[ "GBP.", "ETH.", "USD.", "BCH.", "EUR." ]'></span></b></h1>
+							 <p class="easy">Crypto to fiatmade easy,accept payment in shop or online</p>
+							 <div class="input-group">
+							  <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+							  <span class="input-group-addon" id="basic-addon2">Get Started</span>
+							</div>
+							<div class="row">
+							    <div class="col-md-6">
+								    <div class="media">
+										<div class="media-left">
+											<a href="#">
+											  <img class="media-object" src="img/sec-1/download1.svg" alt="...">
+											</a>
+										</div>
+										<div class="media-body">
+											<h5 class="media-heading">#1 expenses tool in Europe</h5>
+											<p>750+ five star reviews</p>
+										</div>
+									</div>
+								</div>
+							    <div class="col-md-6">
+								    <div class="media m-1">
+										<div class="media-left">
+											<a href="#">
+											  <img class="media-object" src="img/sec-1/download2.svg" alt="...">
+											</a>
+										</div>
+										<div class="media-body">
+											<h5 class="media-heading">Bank-level security</h5>
+											<p>FSA & PCI regulated</p>
+										</div>
+									</div>
+								</div>
+							    
+							</div>
+				        
+				    </div>	
+					<div class="col-md-6 video-part1">
+					    <div class="blackOut">
+						    <div class="popupAlignCenter">
+							<!-- popup content populates here -->
+						    </div>
+						</div>
+                        <div class="videoPopup">
+					        <center><a data-aos="fade-left" data-aos-duration="2000" href="javascript:void(0)" onclick="videoPopupItem.launchPopUp();" class="play-btn" data-toggle="modal" data-target="#myModal" ></a></center>
+				         </div>	
+				    </div>	
+				</div>
+		    </div>
+		</section>
+		<section class="section-2">
+		    <div class="container-fluid fluid-all">
+				<div data-aos="fade-up" data-aos-duration="1000" class="row">
+				    <center><h4>TRUSTED BY 15,000+ COMPANIES OF DIFFERENT SIZES AND INDUSTRIES</h4></center>
+					<div  class="col-md-2 col-xs-6 col-sm-4">
+					    <img src="img/sec-2/1.png">
+					</div>
+					<div   class="col-md-2 col-xs-6 col-sm-4">					
+						<img src="img/sec-2/2.png">
+					</div>
+					<div  class="col-md-2 col-xs-6 col-sm-4">
+						<img src="img/sec-2/3.png">					
+					</div>
+					<div  class="col-md-2 col-xs-6 col-sm-4">
+						<img class="img-responsive" src="img/sec-2/4.png">					
+					</div>
+					<div  class="col-md-2 col-xs-6 col-sm-4">
+						<img   src="img/sec-2/5.png">					
+					</div>
+					<div  class="col-md-2 col-xs-6 col-sm-4">
+						<img src="img/sec-2/6.png">					
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<section class="section-3">
+		    <div class="container-fluid fluid-all">
+				<div data-aos="fade-left" data-aos-duration="1000" class="row">
+				<center><h3>Sendbit is a simple spending solution for your company</h3></center>
+					<div class="col-md-3 col-sm-6">
+					    <div class="thumbnail">
+							<img src="img/sec-3/1.svg" alt="...">
+							<div class="caption">
+								<h4>Smart company cards</h4>
+								<p>Issue cards with limits for your staff with a click.</p>
+								
+							</div>
+					    </div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+					    <div class="thumbnail">
+							<img src="img/sec-3/2.svg" alt="...">
+							<div class="caption">
+								<h4>Automated expenses</h4>
+								<p>Catch receipts with an app instantly, on-the-go.</p>
+								
+							</div>
+					    </div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+					    <div class="thumbnail">
+							<img src="img/sec-3/3.svg" alt="...">
+							<div class="caption">
+								<h4>Spending overview</h4>
+								<p>See all company expenses in one place, in real-time.</p>
+							</div>
+					    </div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+					    <div class="thumbnail">
+							<img src="img/sec-3/4.svg" alt="...">
+							<div class="caption">
+								<h4>Simplified bookkeeping</h4>
+								<p>Integrate Pleo with your accounting tools.</p>
+							</div>
+					    </div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		<section class="section-4">
+		    <div class="container-fluid fluid-all">
+				<div data-aos="fade-up" data-aos-duration="1000" class="row">
+				    <div class="col-md-5 kl-l">
+                        <h2>Why Choose us ?</h2>
+						<h5>Launch your campaign and benefit from our exppertise on designing and menaging conversion centered bootstrap4 html page.</h5>
+						
+						<div class="media">
+							<div class="media-left">
+								<a href="#">
+								  <i class="fa fa-shield"></i>
+								</a>
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Fully Secured</h3>
+								<p>Moreover ,in Latin only words at the begining of sentence are capitalize</p>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<a href="#">
+								  <i class="fa fa-shield"></i>
+								</a>
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Best Performance</h3>
+								<p>If the fill text is intended to illustrate the charcteristics of something.</p>
+							</div>
+						</div>
+                         <button type="button" class="btn btn-primary btn-lg">Install Now &nbsp; <i class="fa fa-angle-right"></i></button>
+                    </div>
+					<div class="col-md-7 kl-r">
+                        <img  class="img-responsive" src="img/sec-4/img.png">
+                    </div>
+			    </div>
+			
+			</div>
+		</section>
+		<!--------------------- section-5--> 
+		<section class="section-5">
+		    <div class="container-fluid fluid-all">
+			    <div class="row">     
+				    <div data-aos="fade-right" data-aos-duration="1000" class="col-md-4 cont-l">
+					    <h1>Pricing Built For Business  Of All Size</h1>
+					   <h5>Launch your campaign and benefit from our exppertise on designing and menaging conversion centered bootstrap4 html page.</h5>
+					   <button type="button" class="btn btn-primary btn-lg">Read More &nbsp; <i class="fa fa-arrow-right"></i></button>
+					</div>
+					<div data-aos="fade-up" data-aos-duration="1000" class="col-md-4 thums">
+					    <div  class="thumbnail">
+							<div class="caption">
+							    <div class="pro">
+								    <center><h1>Professional</h1>
+								    <p>Suitable for freelancers and personal <br>worher</p></center>
+								</div>
+							    <div class="dolar">
+								    <center><h1><sup>$</sup>99</h1>
+								    <p>billed monthly or<br>$50 billed annually</p></center>
+								</div>
+							    <div class="pol">
+									    <p><i class="fa fa-check-circle-o"></i> Akamai data center</p>
+									    <p><i class="fa fa-check-circle-o"></i> Built for speed</p>
+									    <p><i class="fa fa-check-circle-o"></i> Powerful administration</p>
+								</div>
+							    <div class="get">
+								    <center>
+									     <button type="button" class="btn btn-primary btn-lg">GET STARTED NOW</button>
+										 <p>Cancel anytime,No credit card required</p>
+									</center>
+								</div>
+							</div>
+					    </div>
+					</div>
+					 <div data-aos="fade-down" data-aos-duration="1000" class="col-md-4 thums next">
+					    <div class="thumbnail">
+							<div class="caption">
+							    <div class="pro dfg">
+								    <center><h1>Collabrators</h1>
+								    <p>Suitable for freelancers and personal <br>worher</p></center>
+								</div>
+							    <div class="dolar">
+								    <center><h1><sup>$</sup>99</h1>
+								    <p>billed monthly or<br>$50 billed annually</p></center>
+								</div>
+							    <div class="pol">
+								    
+									    <p><i class="fa fa-check-circle-o"></i> Akamai data center</p>
+									    <p><i class="fa fa-check-circle-o"></i> Built for speed</p>
+								</div>
+							    <div class="get">
+								    <center>
+									     <button type="button" class="btn btn-primary btn-lg">GET STARTED NOW</button>
+										 <p>Cancel anytime,No credit card required</p>
+									</center>
+								</div>
+							</div>
+					    </div>
+					</div>
+			    </div>
+		    </div>
+		</section>
+		<section class="section-6">
+		    <div class="container-fluid fluid-all">
+				<div data-aos="fade-up" data-aos-duration="1000" class="row">
+					<div  class="col-md-7 img">
+						<img  class="img-responsive" src="img/sec-6/1.png">
+					</div>
+					
+					<div class="col-md-5 sepn">
+						<h3>Real-time spending overview</h3>
+						<h1>See where the company money is going in real time</h1>	
+						<br>
+						<p><i class="fa fa-check"></i> Follow all purchases, categorized with the right receipts</p>
+						<p><i class="fa fa-check"></i> Set custom tags to match the accounting procedures</p>
+						<p><i class="fa fa-check"></i> Integrate and sync Pleo with your accounting system</p>
+					</div>
+				</div>		  
+			</div>
+		</section>
+		
+		<section class="section-7"> 
+		    <div class="container-fluid fluid-all">
+				<div data-aos="fade-up" data-aos-duration="1000" class="row">
+					<div  class="col-md-6 content-hlo kl-l">
+						<h4>Accounting systems integrations</h4>
+						<h1>Integrate Pleo with your accounting toolsh</h1>
+						<h4>Pleo works seamlessly with various accounting systems and saves you precious time on repetitive tasks. You can now import all expenses and associated data with a single click.</h4>
+						
+					</div>
+					<div  class="col-md-6 kl-r">
+							<img class="img-responsive" src="img/sec-7/1.png">
+						</div>
+					</div>
+								
+				</div>
+			</div><br><br><br>
+			<br><br><br>
+		</section>
+		<section class="section-8">
+		    <div class="container-fluid fluid-all">
+			    <div data-aos="fade-up" data-aos-duration="1000" class="row ">
+					<div class="col-md-5 conm kl-l">
+						<h1>Software Solutions  Designed To Help You Capture More Revenue</h1>
+						<p>LOream isium LOream isium LOream isium LOream isium LOream isium LOream isium LOream isium LOream isium LOream isium LOream isium LOream isium </p><br>
+						<button type="button" class="btn btn-primary btn-lg">START NOW</button>
+					</div>
+					<div class="col-md-7 kl-r">
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+							    <div class="media">
+									<div class="media-left">
+										<a href="#">
+										  <i class="fa fa-bar-chart"></i>
+										</a>
+									</div>
+									<div class="media-body">
+										<h3 class="media-heading">Corporate Cards</h3>
+										<p>If the fill text is intended to illustrate the.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+							    <div class="media">
+									<div class="media-left">
+										<a href="#">
+										  <i class="fa fa-align-center"></i>
+										</a>
+									</div>
+									<div class="media-body">
+										<h3 class="media-heading">Corporate Cards</h3>
+										<p>If the fill text is intended to illustrate the.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+							    <div class="media">
+									<div class="media-left">
+										<a href="#">
+										  <i class="fa fa-align-center"></i>
+										</a>
+									</div>
+									<div class="media-body">
+										<h3 class="media-heading">Corporate Cards</h3>
+										<p>If the fill text is intended to illustrate the.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+							    <div class="media">
+									<div class="media-left">
+										<a href="#">
+										  <i class="fa fa-align-center"></i>
+										</a>
+									</div>
+									<div class="media-body">
+										<h3 class="media-heading">Corporate Cards</h3>
+										<p>If the fill text is intended to illustrate the.</p>
+									</div>
+								</div>
+							</div>
+							
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-9">
+		    <div class="container-fluid fluid-all">
+			    <div data-aos="fade-up" data-aos-duration="1000" class="row">
+				    <div class="col-md-12">
+					    <h1>Our Partner</h1>
+					    <ul>
+						    <li><img src="img/sec-9/1.jpg"></li>
+						    <li><img src="img/sec-9/2.jpg"></li>
+						    <li><img src="img/sec-9/3.jpg"></li>
+						    <li><img src="img/sec-9/4.jpg"></li>
+						    <li><img src="img/sec-9/5.jpg"></li>
+						
+						</ul>
+						<ul>
+						    <li><img src="img/sec-9/6.jpg"></li>
+						    <li><img src="img/sec-9/7.jpg"></li>
+						    <li><img src="img/sec-9/8.jpg"></li>
+						    <li><img src="img/sec-9/9.jpg"></li>
+						    <li><img src="img/sec-9/10.jpg"></li>
+						
+						</ul>
+					<center><button type="button" class="btn btn-primary btn-lg">Watch their stories &nbsp;<i class="fa fa-arrow-right"></i></button></center>
+					</div>
+				</div>
+			</div>
+		</section>
+        <section class="section-10">
+		    <div class="container-fluid fluid-all">
+			    <hr>
+				<br><br><br>
+			    <div data-aos="fade-up" data-aos-duration="1000" class="row">
+				    <div class="col-md-3 col-sm-6">
+					    <center><img class="img-responsive" src="img/sec-10/1.svg"></center>
+						<center>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span>
+						</center>
+					</div>
+					<div class="col-md-3 col-sm-6">
+					    <center><img class="img-responsive" src="img/sec-10/2.svg"></center>
+						<center>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span>
+						</center>
+					</div>
+					<div class="col-md-3 col-sm-6">
+					    <center><img class="img-responsive" src="img/sec-10/3.svg"></center>
+						<center>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span>
+						</center>
+					</div>
+					<div class="col-md-3 col-sm-6">
+					    <center><img class="img-responsive" src="img/sec-10/4.png"></center>
+						<center>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span>
+						</center>
+					</div>
+					
+				</div>
+				<div data-aos="fade-up" data-aos-duration="1000" class="row">
+				    <div class="col-md-12">
+					    <div class="jumbotron">
+					        <video data-aos="zoom-in" width="100%"  controls>
+							  <source src="video/video.mp4" type="video/mp4">
+							  <source src="movie.ogg" type="video/ogg">
+							
+							</video>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+        
+
+		
+<!--------------------- section-8 --> 
+		
+<!--------------------- section-9 --> 
+		<footer class="footer">
+		    <div class="container-fluid">
+			    <div class="row"> 
+		            <div class="col-md-3 lpo">
+		                <center><img src="img/logo/sendbit.png"></center>
+						<center>
+						    <div class="btn-group dropup">
+							  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<img width="30px;" src="img/footer/uk.png"> United Kingdom <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu">
+								<li><a href="#"><img src="img/footer/uk.png"> United Kingdom </a></li>
+								<li><a href="#"><img  src="img/footer/de.png"> Deutschland</a></li>
+								<li><a href="#"><img src="img/footer/fr.png"> France</a></li>
+								<li><a href="#"><img  src="img/footer/den.png"> Danmark</a></li>
+								<li><a href="#"><img  src="img/footer/sv.png"> Sverige</a></li>
+								<li><a href="#"><img  src="img/footer/ir.jpg"> Ireland</a></li>
+								<li><a href="#"><img  src="img/footer/sp.png"> Espana</a></li>
+							  </ul>
+							</div>
+						</center>
+						<center><h3><a href="#">Chat with us</a></h3></center>
+						<center><i class="fa fa-comments"></i></center>
+						<ul class="socile-icon">
+						    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+						    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+						   
+						</ul>
+		            </div> 
+					<div class="col-md-9">
+					    <div class="row">
+						    <div class="col-md-3 col-sm-6 col-xs-6">
+						        <h1>PRODUCT</h1>
+								<ul class="list-group">
+									<li class="list-group-item"><a href="#">Features</a></li>
+									<li class="list-group-item"><a href="#">Why SendBit</a></li>
+									<li class="list-group-item"><a href="#">FAQ</a></li>
+									<li class="list-group-item"><a href="#">Pricing</a></li>
+									<li class="list-group-item"><a href="#">Integrations</a></li>
+									<li class="list-group-item"><a href="#">Security</a></li>
+									<li class="list-group-item"><a href="#">Status</a></li>
+								</ul>
+					        </div>
+							<div class="col-md-3 col-sm-6 col-xs-6">
+						        <h1>RESOURCES</h1>
+								<ul class="list-group">
+									<li class="list-group-item"><a href="#">Blog</a></li>
+									<li class="list-group-item"><a href="#">Help Centre</a></li>
+									<li class="list-group-item"><a href="#">Partners</a></li>
+									<li class="list-group-item"><a href="#">Customers</a></li>
+								</ul>
+					        </div>
+							<div class="col-md-3 col-sm-6 col-xs-6">
+						        <h1>COMPANY</h1>
+								<ul class="list-group">
+									<li class="list-group-item"><a href="#">About us</a></li>
+									<li class="list-group-item"><a href="#">Careers</a></li>
+									<li class="list-group-item"><a href="#">Press</a></li>
+									<li class="list-group-item"><a href="#">Legal</a></li>
+									<li class="list-group-item"><a href="#">Referrals</a></li>
+								</ul>
+					        </div>
+							<div class="col-md-3 col-sm-6 col-xs-6">
+						        <h1>LEGAL</h1>
+								<ul class="list-group">
+									<li class="list-group-item"><a href="#">Terms of service</a></li>
+									<li class="list-group-item"><a href="#">Terms & conditions</a></li>
+									<li class="list-group-item"><a href="#">Privacy policy</a></li>
+									<li class="list-group-item"><a href="#">Complaints process</a></li>
+									<li class="list-group-item"><a href="#">GDPR</a></li>
+								</ul>
+					        </div>
+					    </div>
+						<div class="row sen">
+						    <div class="col-md-12">
+							   <p>The Pleo Card is issued by Pleo Financial Services A/S pursuant to a license from Mastercard International Incorporated. Mastercard and the Mastercard Brand Mark are registered trademarks of Mastercard International Incorporated. Pleo Financial Services A/S is a regulated Electronic Money Institution, authorised by the Financial Supervisory Authority, Denmark. Registered Office of Pleo Financial Services A/S: Ravnsborg Tværgade 5 C, 4. Copenhagen N, 2200, Denmark. CVR Number: 39155435. All communications should be sent to Pleo Technologies A/S, Ravnsborg Tværgade 5C, 2200 Copenhagen N, Denmark
+
+Pleo Technologies Ltd., 2021. All rights reserved.</p>
+							
+							</div>
+						</div> 
+					</div>
+					
+                </div>
+               
+			</div>
+		</footer>
+<!--------------------- section-10 or footer--> 
+		
+		<a href="#top" id="js-top"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></a>
+	           <script src="js/bootstrap.js"></script>
+			   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			 
+			   <script src="js/bootstrap.min.js"></script>
+			  
+			    <script src="js/main.js"></script>
+				<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+				<script src="js/extranal.js"></script>
+	</body>
+</html>
