@@ -130,6 +130,7 @@ html {
 	transition:all 0.3s ease;
 	font-weight:300;
 	font-size:14px;
+	transform: rotate(0deg);
 }
 .navbar .navbar-nav li:hover .bi-chevron-down{
 	transform: rotate(180deg);
