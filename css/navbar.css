@@ -126,12 +126,12 @@ html {
 .navbar .navbar-nav li a{
 	transition:all 0.3s ease;
 }
-.navbar .navbar-nav li .glyphicon-menu-down{
+.navbar .navbar-nav li .bi-chevron-down{
 	transition:all 0.3s ease;
 	font-weight:300;
 	font-size:14px;
 }
-.navbar .navbar-nav li:hover .glyphicon-menu-down{
+.navbar .navbar-nav li:hover .bi-chevron-down{
 	transform: rotate(180deg);
 }
 .navbar .menu-left{
